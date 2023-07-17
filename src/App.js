@@ -18,19 +18,13 @@ import NewlandPaymentTerminal from './pages/vision-source-members';
 import PrivacyPolicy from './pages/privacy-policy';
 import LegalNotice from './pages/legal-notice';
 import {Routes, Route } from "react-router-dom";
-// import "../public/js/bootstrap.bundle.min.js"
-// import "../public/js/wow.min.js"
-// import "../public/js/splitting.min.js"
-// import "../public/js/simpleParallax.min.js"
-// import "../public/js/isotope.pkgd.min.js"
-// import "../public/js/parallax.min.js"
-// import "../public/js/main.js"
+
 
 function App({ Component, pageProps }) {
   return (
     
     <div className="App">
-      {/* <Component {...pageProps} /> */}
+      
       <ProgressScroll />
         <Helmet>
           <script src="/js/bootstrap.bundle.min.js" type="text/javascript" />
