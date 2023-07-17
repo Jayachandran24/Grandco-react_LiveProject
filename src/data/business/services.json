@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "icon": "fa fa-chart-bar ",
+    "img": "img/icons/iconss/credit.svg",
+    "title": "POS Solutions ",
+    "detials": "We match a POS solution that is unique to your business",
+    "tags": [
+      "Dummy",
+      "Dummy"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-dollar-sign",
+    "img": "img/icons/iconss/star.svg",
+    "title": "Multiple Pricing Options ",
+    "detials": "With multiple pricing solutions we can match your business with the pricing option that will save you the most money",
+    "tags": [
+      "Dummy",
+      "Dummy"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-money-bill",
+    "img": "img/icons/iconss/config.svg",
+    "title": "Custom Payment Integrations",
+    "detials": "Let our expert programmers connect your products and software solutions to include payments",
+    "tags": [
+      "Dummy",
+      "Dummy"
+    ]
+  }
+]

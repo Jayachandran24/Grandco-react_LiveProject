@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Industry leading security",
+        "details": "The operating system satisfies the latest hardware and software security requirements, keeping your customer transactions secure.",
+        "closed": false
+    },
+    {
+        "id": 2,
+        "title": "Contactless payment capabilities",
+        "details": "Seamlessly enables contactless payments, providing you and the customer a safe payment experience.",
+        "closed": true
+    },
+    {
+        "id": 3,
+        "title": "Multiple payment options",
+        "details": "Give customers the option to pay electronically using chip & PIN, magnetic stripe and contactless.",
+        "closed": true
+    },
+    {
+        "id": 4,
+        "title": "User-friendly and intuitive interface",
+        "details": "Enables HTML5 web-based business apps through a large touchscreen display.",
+        "closed": true
+    }
+]

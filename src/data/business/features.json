@@ -1,0 +1,25 @@
+{
+  "years": 15,
+  "text": "Dealing with multiple companies and overlapping of fees for your pos software and merchant processing is the old way of doing things.  Step into the future where you can have true end to end solutions with one company all at the lowest rates.",
+  "srtext": "Dealing with multiple companies and overlapping of fees for your pos software and merchant processing is the old way of doing things.  Step into the future where you can have true end to end solutions with one company all at the lowest rates.",
+  "feats": [
+    {
+      "bg": "img/feature_home/retail.png",
+      "numb": "",
+      "title": "dummy",
+      "type": "Retail"
+    },
+    {
+      "bg": "img/feature_home/ecommerce.png",
+      "numb": "",
+      "title": "Branding Design.",
+      "type": "E-commerce"
+    },
+    {
+      "bg": "img/solution/newland.png",
+      "numb": "",
+      "title": "24 / 7 Support.",
+      "type": "Promotions"
+    }
+  ]
+}

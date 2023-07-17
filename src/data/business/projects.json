@@ -1,0 +1,21 @@
+[
+    {
+        "pagetitle" : "Ingenico Smart Terminals ",
+        "url": "ingenico-smart-terminals",
+        "h6title": "Tetra Series",
+        "h2title": "Ingenico Smart Terminals"
+    },
+    {
+        "header" : "Talech second project",
+        "url": "talech-point-sale-system-2",
+        "title": "Talech second title",
+        "content": "Talect second page content"
+    },
+    {
+        "header" : "Talech third project",
+        "url": "talech-point-sale-system-3",
+        "title": "Talech third title",
+        "content": "Talect third page content"
+    }
+]
+  

@@ -1,0 +1,21 @@
+[
+  {
+    "icon": "img/icons/iconss/search.svg",
+    "title": "Free Analysis",
+    "description": "Not sure if you are getting the best offer?  Let our experts provide a no obligation review and report on where your merchant services stands with the competition",
+    "srdescription": "Not sure if you are getting the best offer?  Let our experts provide a no obligation review and report on where your merchant services stands with the competition"
+  },
+  {
+    "icon": "img/icons/iconss/portfolio.svg",
+    "title": "Business",
+    "classname": "text-transparent",
+    "description": "A stand alone terminal with great rates is an outdated solution.  Business owners want more and deserve more in a merchant program.  Grandco solutions take your business to the next level",
+    "srdescription": "A stand alone terminal with great rates is an outdated solution.  Business owners want more and deserve more in a merchant program.  Grandco solutions take your business to the next level"
+  },
+  {
+    "icon": "img/icons/deal.png",
+    "title": "Software Partnerships",
+    "description": "Are you adding payment solutions to your software that are overcharging your customers 3% and higher and waiting days for their funds?  Contact Grandco for a new way to integrate your software with our easy-to-use API’s and revenue sharing model to add additional revenue streams to your company",
+    "srdescription": "Are you adding payment solutions to your software that are overcharging your customers 3% and higher and waiting days for their funds?  Contact Grandco for a new way to integrate your software with our easy-to-use API’s and revenue sharing model to add additional revenue streams to your company"
+  }
+]

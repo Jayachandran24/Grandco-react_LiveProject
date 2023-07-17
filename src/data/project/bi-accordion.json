@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "title": "Billing & Invoicing",
+        "details": "Login to Converge from anywhere to create a quote or an invoice featuring your brand. Simply enter the amount due, associate it with a customer’s  prole or work order, and include item details, taxes, due date, or other instructions. A PDF of the invoice is created and emailed to recipients. A simple click takes them to a hosted payment page featuring your brand where they securely enter payment details. Receipts are automatically sent, and invoice status is tracked through the Converge dashboard. Capture an initial payment and securely save details in the Converge Customer Manager for future invoices.",
+        "closed": false
+    },
+    {
+        "id": 2,
+        "title": "Pay now button",
+        "details": "Easily add a payment button or link to your website, social sites, or emails to make payments quick and easy for your customers. Use it for collecting invoice payments, taking deposits, or requesting donations via a hosted payment page featuring your brand. Customize the button name and colors to match your brand",
+        "closed": true
+    },
+    {
+        "id": 3,
+        "title": "Recurring and batch payments",
+        "details": "Securely store customer card details for automated future payments.  Dene schedule and amount for daily, weekly, monthly, or periodic billing. Upload a CSV le of transactions for batch processing.",
+        "closed": true
+    },
+    {
+        "id": 4,
+        "title": "Credit card surcharge",
+        "details": "Pass acceptance costs to customers who choose to make payments with a credit card. Converge ensures compliance with industry rules and allows customers to avoid the fee by switching their payment method.",
+        "closed": true
+    }
+]

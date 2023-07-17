@@ -1,0 +1,119 @@
+{
+  "description": "",
+  "features": [
+    {
+      "title": "Desk/5000",
+      "details": "Meets the most demanding use cases, turning the point-of-sale into a point-of-service for the countertop."
+    }
+  ],
+  "featureicon": [
+    {
+      "icon": "img/icons/smartcard.png",
+      "icondes": "smartcard"
+    },
+    {
+      "icon": "img/icons/magstripe.png",
+      "icondes": "magstripe"
+    },
+    {
+      "icon": "img/icons/security.png",
+      "icondes": "security"
+    },
+    {
+      "icon": "img/icons/contactless.png",
+      "icondes": "contactless"
+    },
+    {
+      "icon": "img/icons/ethernet.png",
+      "icondes": "ethernet"
+    },
+    {
+      "icon": "img/icons/colourdisplay.png",
+      "icondes": "colour display"
+    },
+    {
+      "icon": "img/icons/touchscreen.png",
+      "icondes": "touch screen"
+    },
+    {
+      "icon": "img/icons/standard.png",
+      "icondes": "standard"
+    }
+  ],
+  "Desk1500": [
+    {
+      "title": "Desk/1500",
+      "details": "A PIN pad that can be paired with the Desk/5000. This combination enables a safer transaction experience giving both customer and merchant their own devices, reducing contact for both."
+    }
+  ],
+  "Desk1500icon": [
+    {
+      "icon": "img/icons/smartcard.png",
+      "icondes": "smartcard"
+    },
+    {
+      "icon": "img/icons/magstripe.png",
+      "icondes": "magstripe"
+    },
+    {
+      "icon": "img/icons/security.png",
+      "icondes": "security"
+    },
+    {
+      "icon": "img/icons/contactless.png",
+      "icondes": "contactless"
+    },
+    {
+      "icon": "img/icons/colourdisplay.png",
+      "icondes": "colour display"
+    }
+  ],
+  "move500": [
+    {
+      "title": "Move/5000",
+      "details": "Total portability, beyond the limits of your business, to meet customers where they are and boost sales."
+    }
+  ],
+  "move5000icon": [
+    {
+      "icon": "img/icons/smartcard.png",
+      "icondes": "smartcard"
+    },
+    {
+      "icon": "img/icons/magstripe.png",
+      "icondes": "magstripe"
+    },
+    {
+      "icon": "img/icons/security.png",
+      "icondes": "security"
+    },
+    {
+      "icon": "img/icons/contactless.png",
+      "icondes": "contactless"
+    },
+    {
+      "icon": "img/icons/ethernet.png",
+      "icondes": "ethernet"
+    },
+    {
+      "icon": "img/icons/colourdisplay.png",
+      "icondes": "colour display"
+    },
+    {
+      "icon": "img/icons/camera.png",
+      "icondes": "camera"
+    },
+    {
+      "icon": "img/icons/barcode.png",
+      "icondes": "barcode"
+    },
+    {
+      "icon": "img/icons/touchscreen.png",
+      "icondes": "touch screen"
+    },
+    {
+      "icon": "img/icons/standard.png",
+      "icondes": "standard"
+    }
+  ]
+}

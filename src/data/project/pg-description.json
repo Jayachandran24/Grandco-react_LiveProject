@@ -1,0 +1,58 @@
+{
+  "description": "Save time, improve cash flow, and control processing costs with built-in productivity boosters. Customize buy buttons, payment pages and invoices with your brand to improve the customer experience.",
+  "features": [
+    {
+      "numb": "01",
+      "title": "Card on file",
+      "details": "Securely store customer profiles and card details for repeat, recurring and subscription payments."
+    },
+    {
+      "numb": "02",
+      "title": "Remote billing and invoicing",
+      "details": "Email customers quotes and invoices and allow them to pay online with a simple click."
+    },
+    {
+      "numb": "03",
+      "title": "Credit card surcharge",
+      "details": "Offset costs with our industry-compliant program that allows you to pass acceptance costs to customers."
+    },
+    {
+      "numb": "04",
+      "title": "Level III processing",
+      "details": "Lower interchange costs for business and government transactions by entering line-item details from invoices."
+    },
+    {
+      "numb": "05",
+      "title": "Product catalog",
+      "details": " Speed checkout and reduce staff keying errors by setting up a list of products and services including prices and descriptions."
+    },
+    {
+      "numb": "06",
+      "title": "Reporting and management",
+      "details": "Easily generate standard or custom reports to view or export to accounting and management systems."
+    },
+    {
+      "numb": "07",
+      "title": "Administrative toolst",
+      "details": "Add employees and assign roles based on access rights."
+    }
+  ],
+  "Gain": [
+    {
+      "numb": "01",
+      "title": "Encryption"
+    },
+    {
+      "numb": "02",
+      "title": "Tokenization"
+    },
+    {
+      "numb": "03",
+      "title": "Online cardholder validation"
+    },
+    {
+      "numb": "04",
+      "title": "Integrated fraud prevention"
+    }
+  ]
+}

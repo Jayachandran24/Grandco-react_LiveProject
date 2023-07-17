@@ -1,0 +1,64 @@
+{
+  "filters": [
+    {
+      "name": "All",
+      "operator": "*"
+    },
+    {
+      "name": "Payment Terminals",
+      "operator": ".Payment"
+    },
+    {
+      "name": "Point Of Sale Solutions",
+      "operator": ".POS"
+    },
+    {
+      "name": "Promotions",
+      "operator": ".Promotions"
+    }
+  ],
+  "gallery": [
+    {
+      "link": "/talech-register",
+      "filter": "POS",
+      "image": "img/solution/talech.png",
+      "title": "Talech Register",
+      "type": ""
+    },
+    {
+      "link": "/ingenico-smart-terminals",
+      "filter": "Payment",
+      "image": "img/solution/ist.png",
+      "title": "Ingenico Smart Terminals",
+      "type": ""
+    },
+    {
+      "link": "/vision-source-members",
+      "filter": "Promotions",
+      "image": "img/solution/newslandpayment.png",
+      "title": "Newland Payment Terminal",
+      "type": ""
+    },
+    {
+      "link": "/billing-invoice",
+      "filter": "POS",
+      "image": "img/solution/billing.png",
+      "title": "Billing and Invoicing",
+      "type": " "
+    },
+    {
+      "link": "/payment-gateway",
+      "filter": "Payment",
+      "image": "img/solution/payment.png",
+      "title": "Mobile Terminals",
+      "type": " "
+    },
+    {
+      "link": "/poynt-for-connected-commerce",
+      "filter": "Payment",
+      "image": "img/solution/poynt.png",
+      "title": "Poynt for connected commerce",
+      "type": " "
+    }
+  ]
+}

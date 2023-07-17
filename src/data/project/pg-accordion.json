@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "In-Person",
+        "details": "Connect an EMV payment device to take payments via swipe, dip or tap.",
+        "closed": false
+    },
+    {
+        "id": 2,
+        "title": "Online",
+        "details": "Accept payments or donations on your website via a buy button, hosted payment page or integrated shopping cart.",
+        "closed": true
+    },
+    {
+        "id": 3,
+        "title": "In an App",
+        "details": "Support payments made through digital wallets like PayPal and Apple Pay on your website or mobile app.",
+        "closed": true
+    },
+    {
+        "id": 4,
+        "title": "Over the Phone",
+        "details": "Use any browser-connected device to enter card details for mail and phone orders.",
+        "closed": true
+    },
+    {
+        "id": 5,
+        "title": "In the Office",
+        "details": "Manage customers, set up recurring payments, and email electronic invoices.",
+        "closed": true
+    }
+]

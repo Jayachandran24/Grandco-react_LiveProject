@@ -1,0 +1,87 @@
+{
+    "description": "",
+    "features": [
+        {
+            "title": "Talech for Retail",
+            "details": "Simple and efficient plans for any use case"
+        }
+    ],
+    "featureicon": [
+        {   "title":"talech Mobile",
+            "icon": "img/Treg/london-eye.png",
+            "icondes": "Farmer’s Market,Fairs, Popup, On-the-Go",
+            "lookingfor":"Looking for a basic point-of-sale"
+        },
+        {   "title":"talech Starter",
+            "icon": "img/Treg/gift-box.png",
+            "icondes": "Floral, Gift Shops, Boutique",
+            "lookingfor":"Looking for a simple point-of-sale"
+        },
+        {   "title":"talech Standard",
+            "icon": "img/Treg/open-sign.png",
+            "icondes": "Mid-size Retail, Brick and Mortar",
+            "lookingfor":"Looking for a mid-range point-of-sale"
+        },
+        {   "title":"talech Premium",
+            "icon": "img/Treg/store.png",
+            "icondes": "Chain, Multi-Checkout,Multi-Location",
+            "lookingfor":"Looking for an advanced point-of-sale"
+        }
+    ],
+    "Desk1500": [
+        {
+            "title": "Talech for Restaurants",
+            "details": "Simple and efficient plans for any use case"
+        }
+    ],
+    "Desk1500icon": [
+        {   "title":"talech Mobile",
+            "icon": "img/Treg/payment-method.png",
+            "icondes": "Food Trucks, Mobile payments",
+            "lookingfor":"Looking for a basic point-of-sale"
+        },
+        {   "title":"talech Starter",
+            "icon": "img/Treg/london-eye.png",
+            "icondes": "Events, Fairs, Farmer’s Markets",
+            "lookingfor":"Looking for a simple point-of-sale"
+        },
+        {   "title":"talech Standard",
+            "icon": "img/Treg/cup.png",
+            "icondes": "Coffee Shop, Bakery, Fast Casual",
+            "lookingfor":"Looking for a mid-range point-of-sale"
+        },
+        {   "title":"talech Premium",
+            "icon": "img/Treg/burger.png",
+            "icondes": "Quick Service, Full Dining",
+            "lookingfor":"Looking for an advanced point-of-sale"
+        }
+    ],
+    "move500": [
+        {
+            "title": "Talech for Services",
+            "details": "Simple and efficient plans for any use case"
+        }
+    ],
+    "move5000icon": [
+        {   "title":"talech Mobile",
+            "icon": "img/Treg/truck.png",
+            "icondes": "Plumbing, Roofing, Electricians, On-the-Go",
+            "lookingfor":"Looking for a basic point-of-sale"
+        },
+        {   "title":"talech Starter",
+            "icon": "img/Treg/toolbox.png",
+            "icondes": "Home Repair, Contractors, Studios",
+            "lookingfor":"Looking for a simple point-of-sale"
+        },
+        {   "title":"talech Standard",
+            "icon": "img/Treg/apple.png",
+            "icondes": "Accounting, Legal, Medical, Gyms",
+            "lookingfor":"Looking for a mid-range point-of-sale"
+        },
+        {   "title":"talech Premium",
+            "icon": "img/Treg/scissors.png",
+            "icondes": "Barbers, Salons, Spas",
+            "lookingfor":"Looking for an advanced point-of-sale"
+        }
+    ]
+}

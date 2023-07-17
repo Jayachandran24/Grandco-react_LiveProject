@@ -1,0 +1,16 @@
+{
+  "galleryThumbs": [
+    "img/testimonials/c1.jpg",
+    "img/testimonials/c2.jpg",
+    "img/testimonials/c3.jpg"
+  ],
+  "galleryTop": [
+    {
+      "content": "Our business is built on keeping our customers up and running – that’s why we’ve partnered with Grandco for so long. Whenever called upon, whether for new services or assistance with existing terminals, the Grandco support team has always been prompt, reliable and effective in keeping us up and running.      ",
+      "author": {
+        "name": "Geoff Bourdeau",
+        "position": "CEO of a multi location flooring company. Grandco customer since 2013"
+      }
+    }
+  ]
+}

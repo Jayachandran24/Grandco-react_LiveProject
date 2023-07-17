@@ -1,0 +1,36 @@
+{
+    "description": "Convergefi Billing and Invoicing solutions",
+        "features": [
+            {
+                "title": "Project research",
+                "details": "No coding skills required to customize and create unique looks."
+            }
+        ],
+        "featureicon": [
+            {   "title":"Personalized",
+                "icon": "img/Treg/personalization.png",
+                "icondes": "Personalized",
+                "lookingfor":"Add your logo, colors, and contact information to digital invoices, email templates and online payment pages."
+            },
+            {   "title":"Client friendly",
+                "icon": "img/Treg/unlock.png",
+                "icondes": "Client friendly",
+                "lookingfor":"Let customers pay with a simple click that connects to a secure hosted payment page."
+            },
+            {   "title":"Productivity booster",
+                "icon": "img/Treg/speedometer.png",
+                "icondes": "Productivity booster",
+                "lookingfor":"Schedule invoices, view payment status and send automated reminder emails."
+            },
+            {   "title":"Time saver",
+                "icon": "img/Treg/clock.png",
+                "icondes": "Time saver",
+                "lookingfor":"Create customer profiles and securely save payment details for future invoices or recurring payments."
+            },
+            {   "title":"Cost saver",
+                "icon": "img/Treg/money-bag.png",
+                "icondes": "Cost saver",
+                "lookingfor":"Reduce credit card acceptance fees with a compliant surcharge program to shift costs to customers."
+            }
+        ]  
+}

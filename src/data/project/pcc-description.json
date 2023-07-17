@@ -1,0 +1,52 @@
+{
+  "description": "",
+  "features": [
+    {
+      "numb": "01",
+      "title": "Menu management",
+      "details": "Simplify your menu with modifiers and variations. Use bundles to automatically group combinations or sets of products."
+    },
+    {
+      "numb": "02",
+      "title": "Discounts",
+      "details": "Create happy hour discounts. Setup advanced BOGO discounts to offer deals."
+    },
+    {
+      "numb": "03",
+      "title": "Table & position management",
+      "details": "Setup up a floor plan with multiple rooms. Split shared items, pay easily."
+    },
+    {
+      "numb": "04",
+      "title": "Order management",
+      "details": "Assign courses and dispatch tickets to multiple printers. Approve and track voids. Manage orders across multiple devices in real-time."
+    },
+    {
+      "numb": "05",
+      "title": "Online ordering",
+      "details": "Build a free mobile site with a click. Reach new customers and capture more revenue."
+    }
+  ],
+  "featuresRetail": [
+    {
+      "numb": "01",
+      "title": "Inventory Management",
+      "details": "Scan barcodes when products arrive and add to inventory. Create barcodes and print labels on any printer."
+    },
+    {
+      "numb": "02",
+      "title": "Sales & discounts",
+      "details": "Create automatic discounts for specific times. Setup advanced BOGO promotional deals."
+    },
+    {
+      "numb": "03",
+      "title": "Inventory Management",
+      "details": "Track inventory by size, color, style, etc. Create combinations by set price, cost, and quantity."
+    },
+    {
+      "numb": "05",
+      "title": "Customer management ",
+      "details": "Track customer records by visits and spend. Use house accounts for customers to pay a deposit or run a tab."
+    }
+  ]
+}

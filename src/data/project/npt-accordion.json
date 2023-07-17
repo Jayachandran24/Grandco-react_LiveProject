@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Easy Integration",
+        "details": "Runs on talech, our robust payment processing software, which provides dozens of added features, analytics and more.",
+        "closed": false
+    },
+    {
+        "id": 2,
+        "title": "Keep going",
+        "details": "High-powered lithium battery for longer charge. Pair with optional docking station for more connection ports.",
+        "closed": true
+    },
+    {
+        "id": 3,
+        "title": "Wireless freedom",
+        "details": "Looks great on the counter or on-the-go. Full WiFi, 4G and Bluetooth transaction support.",
+        "closed": true
+    },
+    {
+        "id": 4,
+        "title": "Data protection",
+        "details": "Embedded Safe-T security solution adds encryption and tokenization to protect card payment data.",
+        "closed": true
+    },
+    {
+        "id": 5,
+        "title": "Dedicated support",
+        "details": "Full 24/7 email and phone assistance with answering technical and account questions.",
+        "closed": true
+    },
+    {
+        "id": 6,
+        "title": "Payment flexibility",
+        "details": "Accepts swipe and chip cards, contactless, gift cards and QR. At the counter, at the table, or anywhere.",
+        "closed": true
+    },
+    {
+        "id": 7,
+        "title": "On display",
+        "details": "Crisp 5” LCD touchscreen, embedded camera and adjustable backlight make navigation a breeze.",
+        "closed": true
+    }
+]

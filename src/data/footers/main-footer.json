@@ -1,0 +1,53 @@
+{
+  "social_links": {
+    "facebook": "https://www.facebook.com/Grandco-101187061352022",
+    "twitter": "https://twitter.com/Grandco5",
+    "instagram": "https://www.instagram.com/grandco_1/",
+    "youtube": "https://www.youtube.com/"
+  },
+  "links": [
+    {
+      "title": "Company",
+      "url": "/home"
+    },
+    {
+      "title": "Affiliates",
+      "url": "/coming-soon"
+    },
+    {
+      "title": "Services",
+      "url": "/services"
+    },
+    {
+      "title": "Products",
+      "url": "/products"
+    }
+  ],
+  "recent_posts": [
+    {
+      "url": "/blog",
+      "image": "img/solution/billing.png",
+      "title": "E-Invoicing",
+      "date": "October 12, 2019"
+    },
+    {
+      "url": "/blog",
+      "image": "img/solution/ist.png",
+      "title": "A way to success for small business or startup companies",
+      "date": "September 6, 2019"
+    },
+    {
+      "url": "/blog",
+      "image": "img/solution/billing.png",
+      "title": "Professional Invoice Solution For Freelancers",
+      "date": "August 20, 2019"
+    }
+  ],
+  "address": "Canada -  Unit 4   677 Romaine St Peterborough ON, K9J 2E6",
+  "email": "info@grandco.ca",
+  "phone": "+1 888 241 6017",
+  "theme_author": {
+    "name": "ThemesCamp",
+    "url": "https://themeforest.net/user/themescamp"
+  }
+}

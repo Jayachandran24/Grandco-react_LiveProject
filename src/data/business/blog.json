@@ -1,0 +1,23 @@
+[
+  {
+    "image": "img/blog/E-invoicing.jpg",
+    "tag": "E-Invoicing",
+    "author": "Admin",
+    "date": " 20 August 2019",
+    "title": "Professional Invoice Solution For Freelancers"
+  },
+  {
+    "image": "img/blog/pointofsale.jpg",
+    "tag": "Point of Sale Systems",
+    "author": "Admin",
+    "date": " 6 September 2019",
+    "title": "A way to success for small business or startup companies"
+  },
+  {
+    "image": "img/blog/paymentterminals.jpg",
+    "tag": "Payment Terminals",
+    "author": "Admin",
+    "date": "31 July 2019",
+    "title": "Online Invoicing Software for Small Business Owners"
+  }
+]
