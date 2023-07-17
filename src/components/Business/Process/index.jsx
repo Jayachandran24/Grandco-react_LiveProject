@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import process from '../../../data/business/process.json';
 
 const Process = ({ services }) => {

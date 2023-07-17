@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+// import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -27,9 +27,9 @@ const BlogGridModern = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head> */}
         <title>Grandco Blogs</title>
-      </Head>
+      {/* </Head> */}
 
       <MainLightLayout defaultTheme="dark" defaultLogoTheme="dark">
         <StickyBar />

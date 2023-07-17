@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
+
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import parallaxie from '../../../common/parallaxie';
-import Link from 'next/link';
+import {BsFillPlayFill} from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,15 +21,16 @@ const Header = () => {
   }
 
   return (
+    
     <header className="home-bus1 position-re">
       <div className="background bg-img parallaxie valign" data-background="img/background/homebg.jpeg" data-overlay-dark="5">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 col-md-10">
-              <div className="caption">
+              <div className="caption text-left">
                 <h6 className="sub-title fw-400 fz-12 radius-30">WE ARE A PAYMENT SERVICE PROVIDER</h6>
                 <h1>Grow your business with our pos solutions</h1>
-                <Link href="/contact" >
+                <Link to="/contact" >
                   <span className="butn butn-md butn-rounded text-black butn-light mt-30  cursor-pointer">Free Consultation</span>
                 </Link>
               </div>
@@ -36,7 +39,7 @@ const Header = () => {
               <div className="full-width text-center">
                 <div className="play-button">
                   <a href="https://www.youtube.com/watch?v=Iqr3XIhSnUQ" className="vid" onClick={openVideo}>
-                    <i className="fas fa-play"></i>
+                    <BsFillPlayFill style={{fontSize:'30px'}}/>
                   </a>
                 </div>
               </div>
@@ -71,7 +74,7 @@ const Header = () => {
             onClose={() => setOpen(false)}
           />
         )
-      }
+      } 
     </header>
   )
 }

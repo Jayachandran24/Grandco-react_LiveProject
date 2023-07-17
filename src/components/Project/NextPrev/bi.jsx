@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from "react-router-dom"
 
 const BiNextPrev = () => {
     return (
@@ -7,7 +7,7 @@ const BiNextPrev = () => {
                 <div className="img bg-img" style={{ backgroundImage: "url('img/portfolio/project2/bg.jpg')" }}>
                     <div className="text-center">
                         <h5>
-                            <Link href="/payment-gateway"><a>Mobile terminals</a></Link>
+                            <Link to="/PaymentGateway"><a>Mobile terminals</a></Link>
                         </h5>
                         <span className="sub-title">Prev Project</span>
                     </div>
@@ -18,7 +18,7 @@ const BiNextPrev = () => {
                 <div className="img bg-img" style={{ backgroundImage: "url('img/portfolio/project2/bg1.jpg')" }}>
                     <div className="text-center">
                         <h5>
-                            <Link href="/vision-source-members"><a>Newland Payment Terminal</a></Link>
+                            <Link to="/NewlandPaymentTerminal"><a>Newland Payment Terminal</a></Link>
                         </h5>
                         <span className="sub-title">Next Project</span>
                     </div>

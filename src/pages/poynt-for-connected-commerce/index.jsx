@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -31,9 +31,9 @@ const PayontConnectedCommerce = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head> */}
                 <title>Poynt for Connected Commerce</title>
-            </Head>
+            {/* </Head> */}
 
             <MainLightLayout>
                 <StickyBar />

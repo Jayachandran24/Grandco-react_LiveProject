@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+// import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -32,9 +32,9 @@ const IngenicoSmartTerminals = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head> */}
                 <title>Ingenico Smart</title>
-            </Head>
+            {/* </Head> */}
 
             <MainLightLayout>
                 <StickyBar />

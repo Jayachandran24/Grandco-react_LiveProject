@@ -17,7 +17,7 @@ const FixedSearch = () => {
           <form >
             <div className="form-group">
               <input type="text" name="search" placeholder="Enter Your Keywords" />
-              <button type="submit"><span className="pe-7s-search"></span></button>
+              <button type="button"><span className="pe-7s-search"></span></button>
             </div>
           </form>
         </div>

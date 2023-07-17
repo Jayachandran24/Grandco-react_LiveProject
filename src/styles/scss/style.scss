@@ -57,20 +57,20 @@
 
 
 // Initialize
-@import "variables.scss";
+@import "_variables.scss";
 
 // bootstrap rest
-@import "utility.scss";
+@import "_utility.scss";
 
 // Core CSS
-@import "typography.scss";
-@import "helper.scss";
+@import "_typography.scss";
+@import "_helper.scss";
 
 // Shortcodes
-@import "shortcodes.scss";
+@import "_shortcodes.scss";
 
 // Colors
-@import "colors-skin.scss";
+@import "_colors-skin.scss";
 
 // responsive
-@import "responsive.scss";
+@import "_responsive.scss";

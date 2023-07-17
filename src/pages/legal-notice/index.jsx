@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -8,7 +7,7 @@ import StickyBar from '../../components/Common/StickyBar';
 import FixedSearch from '../../components/Common/FixedSearch';
 import Footer from "../../components/Footers/MainFooter";
 
-const ProjectDetails = () => {
+const LegalNotice = () => {
     useEffect(() => {
         const removeClasses = [
             'index-bus1', 'index-main', 'index-corporate',
@@ -23,9 +22,9 @@ const ProjectDetails = () => {
 
     return (
         <>
-            <Head>
+            
                 <title>Legal Notice</title>
-            </Head>
+           
 
             <MainLightLayout>
                 <StickyBar />
@@ -92,4 +91,4 @@ const ProjectDetails = () => {
     )
 }
 
-export default ProjectDetails;
+export default LegalNotice;

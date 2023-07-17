@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -17,7 +17,7 @@ import Footer from "../../components/Footers/MainFooter";
 
 
 
-const IngenicoSmartTerminals = () => {
+const TalechRegistor = () => {
     useEffect(() => {
         const removeClasses = [
             'index-bus1', 'index-main', 'index-corporate',
@@ -32,9 +32,9 @@ const IngenicoSmartTerminals = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head> */}
                 <title>Talech Register</title>
-            </Head>
+            {/* </Head> */}
 
             <MainLightLayout>
                 <StickyBar />
@@ -53,4 +53,4 @@ const IngenicoSmartTerminals = () => {
     )
 }
 
-export default IngenicoSmartTerminals;
+export default TalechRegistor;

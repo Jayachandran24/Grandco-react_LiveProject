@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+// import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -10,7 +10,7 @@ import Header from '../../components/Portfolio/Header';
 import Portfolio from '../../components/Portfolio/Classic/Masonry';
 import Footer from "../../components/Footers/MainFooter";
 
-const PortfolioClassicMasonry = () => {
+const Products = () => {
   useEffect(() => {
     const removeClasses = [
       'index-main', 'index-bus1', 'index-corporate',
@@ -25,9 +25,9 @@ const PortfolioClassicMasonry = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head> */}
         <title>Grandco Products</title>
-      </Head>
+      {/* </Head> */}
 
       <MainLightLayout defaultTheme="dark" defaultLogoTheme="dark">
         <StickyBar />
@@ -42,4 +42,4 @@ const PortfolioClassicMasonry = () => {
   )
 }
 
-export default PortfolioClassicMasonry;
+export default Products;

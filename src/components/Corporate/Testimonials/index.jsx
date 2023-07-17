@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import { useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ModalVideo from "react-modal-video";

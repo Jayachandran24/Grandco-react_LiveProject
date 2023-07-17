@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 
 const StickyBar = () => {
 
@@ -23,7 +23,7 @@ const StickyBar = () => {
   return (
     <div className="sticky-bar">
       <div className="left-bar">
-        <Link href="/contact">
+        <Link to="/contact">
           <a className="contact-butn">
             <span>Contact Us</span>
             <span className="icon ml-10">

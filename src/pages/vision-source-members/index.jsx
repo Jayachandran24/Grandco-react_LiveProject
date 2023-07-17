@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -10,11 +10,11 @@ import NptHeader from '../../components/Project/Header/npt';
 import IntroNpt from '../../components/Project/Intro/npt';
 import Video from '../../components/Project/Video';
 import BiDetails from '../../components/Project/Details/bi';
-import BiDescription from '../../components/Project/Description/bi';
+// import BiDescription from '../../components/Project/Description/bi';
 import NptNextPrev from '../../components/Project/NextPrev/npt';
 import Footer from "../../components/Footers/MainFooter";
 
-const BillingInvoice = () => {
+const NewlandPaymentTerminal = () => {
     useEffect(() => {
         const removeClasses = [
             'index-bus1', 'index-main', 'index-corporate',
@@ -29,9 +29,9 @@ const BillingInvoice = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head> */}
                 <title>Newland Payment Terminal </title>
-            </Head>
+            {/* </Head> */}
 
             <MainLightLayout>
                 <StickyBar />
@@ -50,4 +50,4 @@ const BillingInvoice = () => {
     )
 }
 
-export default BillingInvoice;
+export default NewlandPaymentTerminal;

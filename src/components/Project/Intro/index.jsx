@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { SlideDown } from 'react-slidedown';
-import 'react-slidedown/lib/slidedown.css';
+// import { SlideDown } from 'react-slidedown';
+// import 'react-slidedown/lib/slidedown.css';
 import accordionsData from '../../../data/project/accordions.json';
 
 const Intro = () => {
@@ -45,9 +45,9 @@ const Intro = () => {
                         <h6 className="fz-15">{accordion.title}</h6>
                         <span className="ico"></span>
                       </div>
-                      <SlideDown className="accordion-info active" closed={accordion.closed}>
+                      {/* <SlideDown className="accordion-info active" closed={accordion.closed}>
                         <p>{accordion.details}</p>
-                      </SlideDown>
+                      </SlideDown> */}
                     </div>
                   ))
                 }

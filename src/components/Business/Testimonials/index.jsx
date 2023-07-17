@@ -1,10 +1,11 @@
-/* eslint-disable @next/next/no-img-element */
+import React from "react";
 import { useEffect, useRef, useLayoutEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import SwiperCore, { Navigation, Controller } from "swiper";
+// import SwiperCore, {Navigation, Controller} from 'swiper';
 import parallaxie from '../../../common/parallaxie';
 import testimonials from '../../../data/business/testimonials.json';
-
 import "swiper/css";
 import "swiper/css/navigation";
 

@@ -1,3 +1,5 @@
+// import initIsotope from '../common/initlsotope.js'
+import Isotope from 'isotope-layout';
 const initIsotope = () => {
   let iso;
   let grid = document.querySelectorAll(".gallery");
@@ -14,7 +16,7 @@ const initIsotope = () => {
 
   if (filtersElem) {
     filtersElem.addEventListener("click", function (event) {
-      if (!matchesSelector(event.target, "span")) {
+        if (!event.target.matches("span"))  {
         return;
       }
       var filterValue = event.target.getAttribute("data-filter");
@@ -23,7 +25,7 @@ const initIsotope = () => {
     });
     const radioButtonGroup = (buttonGroup) => {
       buttonGroup.addEventListener("click", (event) => {
-        if (!matchesSelector(event.target, "span")) {
+        if (!event.target.matches("span")) {
           return;
         }
         buttonGroup.querySelector(".active").classList.remove("active");

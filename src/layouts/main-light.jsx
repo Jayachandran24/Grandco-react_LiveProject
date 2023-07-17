@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useState, useEffect, useRef } from "react";
-import Head from "next/head";
+
 import Navbar from "../components/Navbars/MainNavbar";
 
 const MainLayout = ({ children, defaultTheme, defaultLogoTheme }) => {
@@ -32,10 +32,10 @@ const MainLayout = ({ children, defaultTheme, defaultLogoTheme }) => {
 
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="/css/plugins.css" />
-        <link rel="stylesheet" href="/css/style.css" />
-      </Head>
+      {/* <Head> */}
+        {/* <link rel="stylesheet" href="/css/plugins.css" />
+        <link rel="stylesheet" href="/css/style.css" /> */}
+      {/* </Head> */}
       
       <Navbar navbarRef={navbarRef} theme={defaultTheme ? defaultTheme : theme} logoTheme={defaultLogoTheme ? defaultLogoTheme : logoTheme} />
       {children}

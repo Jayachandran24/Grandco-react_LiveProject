@@ -1,8 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
+
 import { useEffect } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import initIsotope from '../../../common/initIsotope';
 import portfolio from '../../../data/business/portfolio.json';
+
 
 const Portfolio = () => {
   useEffect(() => {
@@ -43,14 +44,15 @@ const Portfolio = () => {
                   <div className={`col-lg-4 col-md-6 items sm-marg ${image.filter} wow fadeInUp`} data-wow-delay=".4s" key={idx}>
                     <div className="item">
                       <div className="item-img">
-                        <Link href={image.purl}>
-                          <a className="imago wow">
+                        <Link to={image.purl}>
+                          <a className="imago wow animated">
+                            
                             <img src={image.url} alt="image" style={{height:'300px'}} />
                           </a>
                         </Link>
                       </div>
                       <div className="cont">
-                        <Link href={image.url}>
+                        <Link to={image.url}>
                           <span className="mb-5 cursor-pointer	">{image.type}</span>
                         </Link>
                         <h6>{image.title}</h6>
@@ -64,7 +66,7 @@ const Portfolio = () => {
 
           <div className="text-center mt-50">
             {/* href="/portfolio-overlay-masonry */}
-            <Link href="/products">
+            <Link to="/Products">
               <a className="more-butn radius-30">
                 <span>See all Solutions</span>
               </a>

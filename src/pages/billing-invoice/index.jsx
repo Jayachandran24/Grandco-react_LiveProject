@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -31,9 +30,9 @@ const BillingInvoice = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head> */}
                 <title>Billing and Invoicing </title>
-            </Head>
+            {/* </Head> */}
 
             <MainLightLayout>
                 <StickyBar />

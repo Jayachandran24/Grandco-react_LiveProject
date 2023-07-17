@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
+
 import { useEffect } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import initIsotope from '../../../../common/initIsotope';
 import data from '../../../../data/portfolio/classic/masonry.json';
 
@@ -34,10 +34,10 @@ const Portfolio = () => {
                 data.gallery.map((item, index) => (
                   <div className={`col-lg-3 col-md-6 items md-getter ${item.filter} wow fadeInUp`} data-wow-delay=".4s" key={index}>
                     <div className="item-img">
-                      <a href={item.link} className="imago wow">
-                        <img src={item.image} alt="image" style={{height:'350px'}}/>
+                      <Link to={item.link} className="">
+                        <img src={item.image} alt="img" style={{height:'350px'}}/>
                         <div className="item-img-overlay"></div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="cont text-center">
                       <h6 className="fw-500">{item.title}</h6>

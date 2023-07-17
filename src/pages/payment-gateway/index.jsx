@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -11,7 +10,7 @@ import IntroPg from '../../components/Project/Intro/pg';
 import Video from '../../components/Project/Video';
 import PgDetails from '../../components/Project/Details/pg';
 import PgNextPrev from '../../components/Project/NextPrev/pg';
-import PccNextPrev from '../../components/Project/NextPrev/pcc';
+// import PccNextPrev from '../../components/Project/NextPrev/pcc';
 import Footer from "../../components/Footers/MainFooter";
 import PccDescription from '../../components/Project/Description/pg';
 
@@ -33,9 +32,9 @@ const PaymentGateway = () => {
 
     return (
         <>
-            <Head>
+            {/* <Head> */}
                 <title>Payment Gateway </title>
-            </Head>
+            {/* </Head> */}
 
             <MainLightLayout>
                 <StickyBar />

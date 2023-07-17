@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import services from '../../../data/corporate/services.json';
 
 const Services = ({ services: isServicesPage }) => {

@@ -51,7 +51,7 @@ const Form = () => {
     // setErrMessage('done');
     
 
-axios.post('http://localhost/GrandcoCa/grandco/public/contact.php', (formData))
+axios.post('http://localhost/Projects/grandco_react/public/contact.php', (formData))
 
 .then(response => {
   console.log(response)
@@ -90,7 +90,7 @@ axios.post('http://localhost/GrandcoCa/grandco/public/contact.php', (formData))
 
                 <div className="col-12">
                   <div className="mb-40">
-                    <h5 className="fw-600">Get in touch and we’ll get back to you as soon as we can. <br /> We look forward to hearing from you!</h5>
+                    <h5 className="fw-600 text-black">Get in touch and we’ll get back to you as soon as we can. <br /> We look forward to hearing from you!</h5>
                   </div>
                 </div>
 
@@ -116,8 +116,8 @@ axios.post('http://localhost/GrandcoCa/grandco/public/contact.php', (formData))
 
                 <div className="col-12">
                   <div className="text-center mt-40">
-                    <button type="submit" onClick={handleSubmit}>
-                      <span>Let&lsquo;s Talk</span>
+                    <button type="submit" onClick={handleSubmit} className='bg-black'>
+                      <span style={{color:'white'}}>Let&lsquo;s Talk</span>
                     </button>
                   </div>
                 </div>

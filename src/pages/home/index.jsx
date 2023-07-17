@@ -1,17 +1,17 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
-//= Layout
+// import Head from 'next/head';
+// //= Layout
 import MainLightLayout from '../../layouts/main-light';
-//= Components
+// //= Components
 import StickyBar from '../../components/Common/StickyBar';
 import FixedSearch from '../../components/Common/FixedSearch';
-import Header from '../../components/Business/Header';
-import Services from '../../components/Business/Services';
-import Features from '../../components/Business/Features';
-import Process from '../../components/Business/Process';
-import Numbers from '../../components/Business/Numbers';
-import Portfolio from '../../components/Business/Portfolio';
+import Header from '../../components/Business/Header/index';
+import Services from '../../components/Business/Services/index';
+import Features from '../../components/Business/Features/index';
+import Process from '../../components/Business/Process/index';
+import Numbers from '../../components/Business/Numbers/index';
+import Portfolio from '../../components/Business/Portfolio/index';
 import Testimonials from '../../components/Business/Testimonials';
 import Blog from '../../components/Business/Blog';
 import Footer from "../../components/Footers/MainFooter";
@@ -33,11 +33,10 @@ const HomeBusiness1 = () => {
 
   return (
     <>
-      <Head>
+     
         <title>Grandoco merchant services</title>
-      </Head>
-
-      <MainLightLayout>
+      
+        <MainLightLayout>
         <StickyBar />
         <FixedSearch />
         <Header />
@@ -46,7 +45,7 @@ const HomeBusiness1 = () => {
           <Features />
           <Process />
           <Numbers />
-          <Portfolio />
+          <Portfolio /> 
           <Testimonials curve={true} />
           <Blog />
           <Footer footerClass="main-footer bg-dark-blue bg-img" footerBg={false} business={true} />

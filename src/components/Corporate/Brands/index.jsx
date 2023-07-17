@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from '../../Split';
 import brands from '../../../data/corporate/clients.json';

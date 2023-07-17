@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-css-tags */
+
 import { useEffect } from 'react';
-import Head from 'next/head';
+// import Head from 'next/head';
 //= Layout
 import MainLightLayout from '../../layouts/main-light';
 //= Components
@@ -11,8 +11,8 @@ import Hero from '../../components/Corporate/Hero2';
 import Services from '../../components/Corporate/Services';
 import Process from '../../components/Corporate/Process';
 import Testimonials from '../../components/Corporate/Testimonials';
-import Brands from '../../components/Corporate/Brands';
-import Pricing from '../../components/Corporate/Pricing';
+// import Brands from '../../components/Corporate/Brands';
+// import Pricing from '../../components/Corporate/Pricing';
 // import Footer from "../../components/Footers/CorporateFooter";
 import Footer from "../../components/Footers/MainFooter";
 
@@ -34,9 +34,9 @@ const ServicesCorporate = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head> */}
         <title>Grandco Service</title>
-      </Head>
+      {/* </Head> */}
 
       <MainLightLayout>
         <StickyBar />

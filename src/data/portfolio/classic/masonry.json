@@ -19,42 +19,42 @@
   ],
   "gallery": [
     {
-      "link": "/talech-register",
+      "link": "/TalechRegistor",
       "filter": "POS",
       "image": "img/solution/talech.png",
       "title": "Talech Register",
       "type": ""
     },
     {
-      "link": "/ingenico-smart-terminals",
+      "link": "/IngenicoSmartTerminals",
       "filter": "Payment",
       "image": "img/solution/ist.png",
       "title": "Ingenico Smart Terminals",
       "type": ""
     },
     {
-      "link": "/vision-source-members",
+      "link": "/NewlandPaymentTerminal",
       "filter": "Promotions",
       "image": "img/solution/newslandpayment.png",
       "title": "Newland Payment Terminal",
       "type": ""
     },
     {
-      "link": "/billing-invoice",
+      "link": "/BillingInvoice",
       "filter": "POS",
       "image": "img/solution/billing.png",
       "title": "Billing and Invoicing",
       "type": " "
     },
     {
-      "link": "/payment-gateway",
+      "link": "/PaymentGateway",
       "filter": "Payment",
       "image": "img/solution/payment.png",
       "title": "Mobile Terminals",
       "type": " "
     },
     {
-      "link": "/poynt-for-connected-commerce",
+      "link": "/PayontConnectedCommerce",
       "filter": "Payment",
       "image": "img/solution/poynt.png",
       "title": "Poynt for connected commerce",
