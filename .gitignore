@@ -2,7 +2,18 @@
 
 # dependencies
 /node_modules
-/public
+/public/arch
+/public/css
+/public/fonts
+/public/freelancer
+/public/img
+/public/js
+/public/landing-preview
+/public/mobile-app
+/public/nft
+/public/restaurant
+/public/vendor
+/public/robots.txt
 /build
 /.pnp
 .pnp.js
