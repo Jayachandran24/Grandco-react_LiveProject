@@ -2,6 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 
 const Form = () => {
+  const END_POINT = `${process.env.REACT_APP_API_ENDPOINT}`;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -51,7 +52,7 @@ const Form = () => {
     // setErrMessage('done');
     
 
-axios.post('http://localhost/Projects/grandco_react/public/contact.php', (formData))
+axios.post(END_POINT, (formData))
 
 .then(response => {
   console.log(response)
