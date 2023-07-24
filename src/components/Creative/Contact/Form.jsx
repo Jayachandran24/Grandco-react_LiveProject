@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, } from 'react';
 import axios from 'axios';
 
 const Form = () => {
@@ -9,47 +9,63 @@ const Form = () => {
     subject: "",
     message: ""
   });
-
   const [errMessage, setErrMessage] = useState(null);
-  // const [succMessage, setSuccMessage] = useState(null);
-
+  const [succMessage, setSuccMessage] = useState(null);
+  // const navigate = useNavigate();
 
   const validateForm = (formValues) => {
     if (!formValues.name || !formValues.email || !formValues.message) {
       setErrMessage('Please fill in all fields*');
       return false;
     }
-    // if (formValues.name || formValues.email || formValues.message) {
-    //   setSuccMessage('successfully submitted')
+    if (formValues.name || formValues.email || formValues.message) {
+      setSuccMessage('Form submitted successfully!')
+    }
+    // if (formValues.name.length < 5) {
+    //   setErrMessage('Name must be at least 5 characters');
+    //   return false;
     // }
-    if (formValues.name.length < 5) {
-      setErrMessage('Name must be at least 5 characters');
-      return false;
-    }
-    if (formValues.subject.length < 10) {
-      setErrMessage('Subject must be at least 10 characters');
-      return false;
-    }
-    if (formValues.message.length < 10) {
-      setErrMessage('Message must be at least 10 characters');
-      return false;
-    }
+    // if (formValues.subject.length < 10) {
+    //   setErrMessage('Subject must be at least 10 characters');
+    //   return false;
+    // }
+    // if (formValues.message.length < 10) {
+    //   setErrMessage('Message must be at least 10 characters');
+    //   return false;
+    // }
     if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(formValues.email)) {
       setErrMessage('Email is invalid');
+      setSuccMessage('');
       return false;
     }
+
     return true;
   }
 
   const handleSubmit = (e) =>{
     e.preventDefault();
+// Assuming the validateForm function returns true for valid data and false for invalid data
+// if (!validateForm(formData)) {
+//   // Form data is invalid
+//   // setErrMessage('Please fill in all required fields.');
+//   setSuccMessage('');
+// } else {
+//   // Form data is valid
+//   setErrMessage('');
+//   setSuccMessage('Form submitted successfully!');
+// }
+
     // validate form
     if(!validateForm(formData)) return ;
     // Clear Error Message
     setErrMessage('');
+    setFormData({    
+      name: "",
+      email: "",
+      subject: "",
+      message: ""})
 
-    // if (validateForm(formData)) return ;
-    // setErrMessage('done');
+
     
 
 axios.post(END_POINT, (formData))
@@ -80,9 +96,9 @@ axios.post(END_POINT, (formData))
         <div className="col-lg-11">
           <div className="box-shadow to-up">
             <form>
-              {/* {
+              {
                 succMessage && <div className='succmessage' style={{color:'green', fontWeight:'600', fontSize:'20px', marginBottom:'20px', letterSpacing:'1px'}}>{succMessage}</div>
-              } */}
+              }
               {
                 errMessage && <div className="messages" style={{color:'red'}}>{errMessage}</div>
               }
@@ -117,7 +133,7 @@ axios.post(END_POINT, (formData))
 
                 <div className="col-12">
                   <div className="text-center mt-40">
-                    <button type="submit" onClick={handleSubmit} className='bg-black'>
+                    <button type="submit" onClick={handleSubmit} className='bg-black' name='contactus'>
                       <span style={{color:'white'}}>Let&lsquo;s Talk</span>
                     </button>
                   </div>

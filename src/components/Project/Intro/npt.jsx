@@ -37,7 +37,7 @@ const IntroNpt = () => {
                                 Ensure you stay competitive with customer payment demands with the Newland N910 smart terminal. Utilizing talech, our premier point-of-sale software, Newland is a sleek and efficient payment companion that helps handle daily operations and boosts sales.
                             </p>
 
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -46,7 +46,7 @@ const IntroNpt = () => {
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        Runs on talech, our robust payment processing software, which provides dozens of added features, analytics and more.                                         </div>
+                                        <p className="fz-18 fw-300">Runs on talech, our robust payment processing software, which provides dozens of added features, analytics and more. </p>                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -57,7 +57,7 @@ const IntroNpt = () => {
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        High-powered lithium battery for longer charge. Pair with optional docking station for more connection ports.
+                                        <p className="fz-18 fw-300">High-powered lithium battery for longer charge. Pair with optional docking station for more connection ports.</p>
                                         
                                         </div>
                                     </div>
@@ -69,7 +69,8 @@ const IntroNpt = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Looks great on the counter or on-the-go. Full WiFi, 4G and Bluetooth transaction support.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Looks great on the counter or on-the-go. Full WiFi, 4G and Bluetooth transaction support.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -79,7 +80,8 @@ const IntroNpt = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Embedded Safe-T security solution adds encryption and tokenization to protect card payment data.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Embedded Safe-T security solution adds encryption and tokenization to protect card payment data.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -89,7 +91,8 @@ const IntroNpt = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Full 24/7 email and phone assistance with answering technical and account questions.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Full 24/7 email and phone assistance with answering technical and account questions.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -99,7 +102,8 @@ const IntroNpt = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Accepts swipe and chip cards, contactless, gift cards and QR. At the counter, at the table, or anywhere.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Accepts swipe and chip cards, contactless, gift cards and QR. At the counter, at the table, or anywhere.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -109,7 +113,8 @@ const IntroNpt = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Crisp 5” LCD touchscreen, embedded camera and adjustable backlight make navigation a breeze.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Crisp 5” LCD touchscreen, embedded camera and adjustable backlight make navigation a breeze.</p></div>
                                     </div>
                                 </div>
                                 

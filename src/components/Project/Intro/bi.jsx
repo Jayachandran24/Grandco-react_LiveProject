@@ -38,7 +38,7 @@ const IntroBi = () => {
                                 efficiencies and save money with smart payment collection
                             </p>
 
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -47,7 +47,7 @@ const IntroBi = () => {
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        Login to Converge from anywhere to create a quote or an invoice featuring your brand. Simply enter the amount due, associate it with a customer’s prole or work order, and include item details, taxes, due date, or other instructions. A PDF of the invoice is created and emailed to recipients. A simple click takes them to a hosted payment page featuring your brand where they securely enter payment details. Receipts are automatically sent, and invoice status is tracked through the Converge dashboard. Capture an initial payment and securely save details in the Converge Customer Manager for future invoices.                                          </div>
+                                        <p className="fz-18 fw-300">Login to Converge from anywhere to create a quote or an invoice featuring your brand. Simply enter the amount due, associate it with a customer’s prole or work order, and include item details, taxes, due date, or other instructions. A PDF of the invoice is created and emailed to recipients. A simple click takes them to a hosted payment page featuring your brand where they securely enter payment details. Receipts are automatically sent, and invoice status is tracked through the Converge dashboard. Capture an initial payment and securely save details in the Converge Customer Manager for future invoices.   </p>                                       </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -58,7 +58,7 @@ const IntroBi = () => {
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        Easily add a payment button or link to your website, social sites, or emails to make payments quick and easy for your customers. Use it for collecting invoice payments, taking deposits, or requesting donations via a hosted payment page featuring your brand. Customize the button name and colors to match your brand
+                                        <p className="fz-18 fw-300">Easily add a payment button or link to your website, social sites, or emails to make payments quick and easy for your customers. Use it for collecting invoice payments, taking deposits, or requesting donations via a hosted payment page featuring your brand. Customize the button name and colors to match your brand</p>
                                         
                                         </div>
                                     </div>
@@ -70,7 +70,9 @@ const IntroBi = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Securely store customer card details for automated future payments. Dene schedule and amount for daily, weekly, monthly, or periodic billing. Upload a CSV le of transactions for batch processing.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">
+                                            Securely store customer card details for automated future payments. Dene schedule and amount for daily, weekly, monthly, or periodic billing. Upload a CSV le of transactions for batch processing.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -80,7 +82,8 @@ const IntroBi = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Pass acceptance costs to customers who choose to make payments with a credit card. Converge ensures compliance with industry rules and allows customers to avoid the fee by switching their payment method.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Pass acceptance costs to customers who choose to make payments with a credit card. Converge ensures compliance with industry rules and allows customers to avoid the fee by switching their payment method.</p></div>
                                     </div>
                                 </div>
                                 

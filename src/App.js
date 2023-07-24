@@ -33,7 +33,7 @@ function App({ Component, pageProps }) {
           {/* <script src="/js/simpleParallax.min.js" type="text/javascript" /> */}
           <script src="/js/isotope.pkgd.min.js" type="text/javascript" />
           {/* <script src="/js/parallax.min.js" type="text/javascript" /> */}
-          <script src="/js/main.js" type="text/javascript" />
+          {/* <script src="/js/main.js" type="text/javascript" /> */}
           
         </Helmet>
       <Routes>

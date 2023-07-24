@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
-import darklogo from '../../../img/logo-dark.png'
-import lightlogo from '../../../img/logo-light.png'
+// import {darklogo} from '../../../../public/img/logo-dark.png';
+// import lightlogo from '../../../../public/img/logo-light.png';
 import {BiLogoFacebook} from 'react-icons/bi'
 import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai';
 // import {FiMenu} from 'react-icons/fi'
@@ -34,9 +34,9 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
       <div className="container">
         <Link to="/">
           <div className="logo">
-            {logoTheme === 'dark' && <img src={darklogo} alt="Logo"/>}
-            {logoTheme === 'light' && <img src={lightlogo} alt="Logo" />}
-            {!logoTheme && <img src={lightlogo} alt="Logo" />}
+            {logoTheme === 'dark' && <img src = '/img/logo-dark.png' alt="Logo"/>}
+            {logoTheme === 'light' && <img src='/img/logo-light.png' alt="Logo" />}
+            {!logoTheme && <img src='/img/logo-light.png' alt="Logo" />}
           </div>
         </Link>
         <button

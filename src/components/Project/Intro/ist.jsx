@@ -42,7 +42,7 @@ const IntroIst = () => {
                                 security requirements.</p>
 
                              
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -51,7 +51,7 @@ const IntroIst = () => {
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        The operating system satisfies the latest hardware and software security requirements, keeping your customer transactions secure.                                            </div>
+                                        <p className="fz-18 fw-300">The operating system satisfies the latest hardware and software security requirements, keeping your customer transactions secure. </p>                                           </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -62,7 +62,7 @@ const IntroIst = () => {
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        Seamlessly enables contactless payments, providing you and the customer a safe payment experience.                                            </div>
+                                        <p className="fz-18 fw-300">Seamlessly enables contactless payments, providing you and the customer a safe payment experience.    </p>                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -72,7 +72,8 @@ const IntroIst = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Give customers the option to pay electronically using chip & PIN, magnetic stripe and contactless.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Give customers the option to pay electronically using chip & PIN, magnetic stripe and contactless.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -82,7 +83,8 @@ const IntroIst = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Enables HTML5 web-based business apps through a large touchscreen display.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Enables HTML5 web-based business apps through a large touchscreen display.</p></div>
                                     </div>
                                 </div>
                             </div> 

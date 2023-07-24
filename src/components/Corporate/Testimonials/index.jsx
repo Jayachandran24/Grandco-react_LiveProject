@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import testimonials from '../../../data/corporate/testimonials.json';
+import { Link } from "react-router-dom";
+import {BsFillPlayFill} from 'react-icons/bs'
 
 const Testimonials = ({ additionalClass, services }) => {
   const [isOpen, setOpen] = useState(false);
@@ -18,12 +20,13 @@ const Testimonials = ({ additionalClass, services }) => {
       <div className="container">
         <div className="bg-img bg-fixed" style={{ backgroundImage: "url('img/background/servicepg.jpg')" }} data-overlay-dark="4">
           <div className="play-button">
-            <a href="https://www.youtube.com/watch?v=Iqr3XIhSnUQ" className="btn vid" onClick={openVideo}>
+            <Link to="" className="btn vid" onClick={openVideo}>
               <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <circle className="circle" cx="50" cy="50" r="48" stroke="white" strokeWidth="2" fill="none" />
               </svg>
               <i className="fas fa-play"></i>
-            </a>
+            </Link>
+  
             {/* <div className="text">
               <span>Watch the trailer</span>
             </div> */}
@@ -75,13 +78,13 @@ const Testimonials = ({ additionalClass, services }) => {
         (
           <ModalVideo
             channel="youtube"
-            autoplay
+            autoplay={1}
             isOpen={isOpen}
-            videoId="AzwC6umvd1s"
+            videoId="Iqr3XIhSnUQ"
             onClose={() => setOpen(false)}
           />
         )
-      }
+      } 
     </section>
   )
 }

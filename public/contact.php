@@ -1,31 +1,19 @@
 <?php
 
+// $servernmae = "localhost";
+// $username = "Grandco_React";
+// $password = "gjrl!y+E,BfX";
+// $dbname = "grandco_contact_form";
 $servernmae = "localhost";
-$username = "Grandco_React";
-$password = "gjrl!y+E,BfX";
-$dbname = "grandco_contact_form";
+$username = "root";
+$password = "";
+$dbname = "test";
 $conn= new mysqli ($servernmae,$username,$password,$dbname);
 
 if($conn->connect_error) {
     die("Connection failed: " .$conn->connect_error);
 }
 echo "connection successfull";
-
-// require_once 'config.php';
-// $MAILID = $MAILID;
-// $PASSWORD = $PASSWORD;
-// $HOST = $HOST;
-// $PORT = $PORT;
-
-    // $MAILID = getenv('REACT_APP_MAILID');
-    // $PASSWORD = getenv('REACT_APP_PASSWORD');
-    // $HOST = getenv('REACT_APP_HOST');
-    // $PORT = getenv('REACT_APP_PORT');
-    // $MAILID = `${process.env.REACT_APP_MAILID}`;
-    // $PASSWORD = `${process.env.REACT_APP_PASSWORD}`;
-    // $HOST = `${process.env.REACT_APP_HOST}`;
-    // $PORT = `${process.env.REACT_APP_PORT}`;
-    // session_start();
     
     header('Access-Control-Allow-Origin: *');
     header("Access-Control-Allow-Methods: *");
@@ -33,7 +21,8 @@ echo "connection successfull";
     $rest_json = file_get_contents("php://input");
     $_POST = json_decode($rest_json, true);
 
-
+    $ipaddress = $_SERVER['REMOTE_ADDR'];
+ Echo "Your IP Address is " . $ipaddress;
 
     $Name = $_POST['name'];
     $Emails = $_POST['email'];
@@ -44,12 +33,18 @@ echo "connection successfull";
     echo "Email: " . $Emails . '<br>';
     echo "Subject: " . $Subject . '<br>';
     echo "Message: " . $Message . '<br>';
-    if(!empty($Name) && !empty($Emails) && !empty($Subject) && !empty($Message) ) {
-        $sql = "insert into grandco(name,email,subject,message) values('$Name','$Emails','$Subject','$Message')";
+    echo "Ipaddr : " . $ipaddress . '<br>';
+    
+    if(!empty($Name) && !empty($Emails) && !empty($Subject) && !empty($Message) && !empty($ipaddress) ) {
+        $sql = "insert into grandco(name,email,subject,message,ipaddr) values('$Name','$Emails','$Subject','$Message','$ipaddress')";
         if (mysqli_query($conn, $sql)) {
             echo 'successfull';
-        }else
-        echo ('Error');
+            // Insertion successful, redirect to the home page
+            // header('Location: http://localhost:3000/#/Contact'); // Replace 'index.php' with the actual URL of your home page
+            exit(); // Make sure to exit the script after the redirect
+        } else {
+            echo 'Error';
+        }
 
     }
    

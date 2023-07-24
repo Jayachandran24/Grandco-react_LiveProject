@@ -47,7 +47,7 @@ const Portfolio = () => {
                         <Link to={image.purl}>
                           <a className="imago wow animated">
                             
-                            <img src={image.url} alt="image" style={{height:'300px'}} />
+                            <img src={image.url} alt="image" style={{height:'300px', width:'350px'}} />
                           </a>
                         </Link>
                       </div>

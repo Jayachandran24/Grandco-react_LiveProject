@@ -48,7 +48,7 @@ const IntroPg = () => {
                                 CRM systems via easy-to-use developer tools.
                             </p>
 
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -57,7 +57,7 @@ const IntroPg = () => {
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        Connect an EMV payment device to take payments via swipe, dip or tap.                                           </div>
+                                        <p className="fz-18 fw-300"> Connect an EMV payment device to take payments via swipe, dip or tap. </p>                                          </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -68,7 +68,7 @@ const IntroPg = () => {
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                        Accept payments or donations on your website via a buy button, hosted payment page or integrated shopping cart.
+                                        <p className="fz-18 fw-300">Accept payments or donations on your website via a buy button, hosted payment page or integrated shopping cart.</p>
                                         
                                         </div>
                                     </div>
@@ -80,7 +80,8 @@ const IntroPg = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Support payments made through digital wallets like PayPal and Apple Pay on your website or mobile app.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Support payments made through digital wallets like PayPal and Apple Pay on your website or mobile app.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -90,7 +91,8 @@ const IntroPg = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Use any browser-connected device to enter card details for mail and phone orders.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Use any browser-connected device to enter card details for mail and phone orders.</p></div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -100,7 +102,8 @@ const IntroPg = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Manage customers, set up recurring payments, and email electronic invoices.</div>
+                                        <div class="accordion-body">
+                                        <p className="fz-18 fw-300">Manage customers, set up recurring payments, and email electronic invoices.</p></div>
                                     </div>
                                 </div>
                             </div> 
